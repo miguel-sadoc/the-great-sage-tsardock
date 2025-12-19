@@ -1,0 +1,44 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build (Debug) - g++",
+      "type": "shell",
+      "command": "C:/mingw64_sfml/bin/g++.exe",
+      "args": [
+        "-std=c++17",
+        "-g",
+        "-O0",
+        "-Wall",
+        "-Wextra",
+
+        "-I", "${workspaceFolder}/include",
+        "-I", "C:/SFML-2.6.1/include",
+        "-L", "C:/SFML-2.6.1/lib",
+
+        "${workspaceFolder}/src/main.cpp",
+        "${workspaceFolder}/src/entities/Player.cpp",
+        "${workspaceFolder}/src/game/AlienFormation.cpp",
+        "${workspaceFolder}/src/game/Game.cpp",
+
+        "${workspaceFolder}/src/ui/Hud.cpp",
+        "${workspaceFolder}/src/systems/Resources.cpp",
+
+        "-lsfml-graphics",
+        "-lsfml-window",
+        "-lsfml-system",
+
+        "-o", "${workspaceFolder}/bin/space_invaders.exe"
+      ],
+      "problemMatcher": ["$gcc"],
+      "group": { "kind": "build", "isDefault": true }
+    },
+    {
+      "label": "Run",
+      "type": "shell",
+      "command": "${workspaceFolder}/bin/space_invaders.exe",
+      "dependsOn": "Build (Debug) - g++",
+      "problemMatcher": []
+    }
+  ]
+}
