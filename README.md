@@ -1,5 +1,5 @@
 # The Great Sage Tsardock  
-*A Space Invaders-inspired C++ / SMFL learning project - with a wizard-themed twist*
+*A Space Invaders-inspired C++ / SFML learning project - with a wizard-themed twist*
 
 This repository is my first GitHub project and was built primarily as a learning journey.
 
@@ -36,11 +36,12 @@ It started as a classic **Space Invaders** clone to practice core game programmi
 ---
 
 ## Folder structure
-include/ # headers
-src/ # .cpp source files
-assets/ # sprites + fonts
-.vscode/ # tasks/launch (optional, for easy build/run)
-bin/ # build output (ignored by git)
+```txt
+include/    # headers
+src/        # .cpp source files
+assets/     # sprites + fonts
+.vscode/    # tasks/launch (optional, for easy build/run)
+bin/        # build output (ignored by git)
 
 ---
 

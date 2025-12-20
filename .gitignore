@@ -1,0 +1,19 @@
+# Build outputs
+bin/
+build/
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.dll
+
+# SFML / runtime leftovers
+*.log
+
+# VSCode / system
+.vscode/ipch/
+.vscode/.browse.VC.db
+.vscode/.cache/
+.DS_Store
+Thumbs.db
