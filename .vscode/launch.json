@@ -2,10 +2,10 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Debug - space_invaders (gdb)",
+      "name": "Debug - the_great_sage_tsardock (gdb)",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/bin/space_invaders.exe",
+      "program": "${workspaceFolder}/bin/the_great_sage_tsardock.exe",
       "args": [],
       "cwd": "${workspaceFolder}",
       "stopAtEntry": false,

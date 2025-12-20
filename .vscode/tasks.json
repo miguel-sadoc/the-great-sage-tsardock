@@ -28,7 +28,7 @@
         "-lsfml-window",
         "-lsfml-system",
 
-        "-o", "${workspaceFolder}/bin/space_invaders.exe"
+        "-o", "${workspaceFolder}/bin/the_great_sage_tsardock.exe"
       ],
       "problemMatcher": ["$gcc"],
       "group": { "kind": "build", "isDefault": true }
@@ -36,7 +36,7 @@
     {
       "label": "Run",
       "type": "shell",
-      "command": "${workspaceFolder}/bin/space_invaders.exe",
+      "command": "${workspaceFolder}/bin/the_great_sage_tsardock.exe",
       "dependsOn": "Build (Debug) - g++",
       "problemMatcher": []
     }

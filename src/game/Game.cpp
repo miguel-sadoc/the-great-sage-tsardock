@@ -23,7 +23,7 @@
 #include <iostream>
 
 Game::Game()
-    : window(sf::VideoMode((unsigned)cfg::WindowWidth, (unsigned)cfg::WindowHeight), "Space Invaders"),
+    : window(sf::VideoMode((unsigned)cfg::WindowWidth, (unsigned)cfg::WindowHeight), "The Great Sage Tsardock"),
       player(cfg::PlayerStartX, cfg::PlayerStartY, cfg::minX, cfg::maxX),
       alienCooldown(cfg::InitialAlienCooldown),
       alienSpeed(cfg::InitialAlienSpeed),
