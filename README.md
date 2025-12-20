@@ -15,7 +15,7 @@ It started as a classic **Space Invaders** clone to practice core game programmi
 - **Pixel-art friendly rendering**: pixel snapping + consistent sprite origins
 
 <p align="center">
-  <img src="media/gameplay.gif" width="720" />
+  <img src="media/gameplay.gif" width="500" />
 </p>
 
 ---
@@ -76,8 +76,8 @@ Sprites and background were generated with AI tools and are included for educati
 
 
 <p align="center">
-  <img src="media/player.png" width="100" />
-  <img src="media/alienProjectile.gif" width="100" />
+  <img src="media/player.png" width="70" />
+  <img src="media/alienProjectile.gif" width="70" />
 </p>
 
 ---
