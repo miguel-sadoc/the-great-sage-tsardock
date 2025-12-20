@@ -32,7 +32,7 @@ It started as a classic **Space Invaders** clone to practice core game programmi
   - `Hud` as a pure UI layer (no gameplay state inside)
 - Safe container iteration patterns (erase while iterating)
 - Building a small project without frameworks (manual build via VSCode tasks)
-
+```
 ---
 
 ## Folder structure
