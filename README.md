@@ -66,7 +66,8 @@ g++ -std=c++17 -g -O0 -Wall -Wextra ^
 ---
 
 
-## Sprites and background were generated with AI tools and are included for educational/demo purposes (non-commercial).
+## Assets
+Sprites and background were generated with AI tools and are included for educational/demo purposes (non-commercial).
 
 
 ---
