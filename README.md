@@ -76,8 +76,8 @@ Sprites and background were generated with AI tools and are included for educati
 
 
 <p align="center">
-  <img src="media/player.png" width="360" />
-  <img src="media/alienProjectile.gif" width="360" />
+  <img src="media/player.png" width="100" />
+  <img src="media/alienProjectile.gif" width="100" />
 </p>
 
 ---
