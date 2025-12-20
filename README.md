@@ -61,21 +61,20 @@ g++ -std=c++17 -g -O0 -Wall -Wextra ^
   -LC:/SFML-2.6.1/lib ^
   -lsfml-graphics -lsfml-window -lsfml-system ^
   -o bin/space_invaders.exe
+```
+
+---
+
+
+## Sprites and background were generated with AI tools and are included for educational/demo purposes (non-commercial).
 
 
 ---
 
 
-Sprites and background were generated with AI tools and are included for educational/demo purposes (non-commercial).
-
-
----
-
-
-License
+## License
 
 MIT
-
 
 ---
 
