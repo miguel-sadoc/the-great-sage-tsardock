@@ -1,9 +1,11 @@
 # The Great Sage Tsardock  
 *A Space Invaders-inspired C++ / SFML learning project - with a wizard-themed twist*
 
+**Lore:** After claiming the Supreme Grimoire in a deadly battle against the Primordial Dragon of Magic at the Arcane Castle, the Great Sage Tsardock sees himself clashing with the beast’s eggs, as a last resort, trying to reclaim what once belonged to the gods.
+
 This repository is my first GitHub project and was built primarily as a learning journey.
 
-It started as a classic **Space Invaders** clone to practice core game programming fundamentals in C++ (game loop, input, collisions, timing, and basic architecture). Over time, inspired by my brother, the project gained its own identity — the theme shifted toward a **wizard/magic** vibe — while the **gameplay and rules remain Space-Invaders-like**: waves, a marching formation, bullets, lives, and score.
+It started as a classic **Space Invaders** clone to practice core game programming fundamentals in C++ (game loop, input, collisions, timing, and basic architecture). Over time, inspired by my brother's stories, the project gained its own identity — the theme shifted toward a **wizard/magic** vibe — while the **gameplay and rules remain Space-Invaders-like**: waves, a marching formation, bullets, lives, and score.
 
 ---
 
