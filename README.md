@@ -14,6 +14,10 @@ It started as a classic **Space Invaders** clone to practice core game programmi
 - **HUD**: score, lives, wave + state banners (Game Over / Next Wave)
 - **Pixel-art friendly rendering**: pixel snapping + consistent sprite origins
 
+<p align="center">
+  <img src="media/gameplay.gif" width="720" />
+</p>
+
 ---
 
 ## Controls
@@ -70,6 +74,11 @@ g++ -std=c++17 -g -O0 -Wall -Wextra ^
 ## Assets
 Sprites and background were generated with AI tools and are included for educational/demo purposes (non-commercial).
 
+
+<p align="center">
+  <img src="media/player.png" width="360" />
+  <img src="media/alienProjectile.gif" width="360" />
+</p>
 
 ---
 
