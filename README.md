@@ -38,7 +38,7 @@ It started as a classic **Space Invaders** clone to practice core game programmi
   - `Hud` as a pure UI layer (no gameplay state inside)
 - Safe container iteration patterns (erase while iterating)
 - Building a small project without frameworks (manual build via VSCode tasks)
-```
+
 ---
 
 ## Folder structure
@@ -48,6 +48,7 @@ src/        # .cpp source files
 assets/     # sprites + fonts
 .vscode/    # tasks/launch (optional, for easy build/run)
 bin/        # build output (ignored by git)
+```
 
 ---
 
@@ -69,7 +70,6 @@ g++ -std=c++17 -g -O0 -Wall -Wextra ^
   -lsfml-graphics -lsfml-window -lsfml-system ^
   -o bin/space_invaders.exe
 ```
-
 ---
 
 
